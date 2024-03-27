@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+margin:0;
+padding:0;
+line-height:1.5;
+font-weight:400;
+color:#000000;
+font-size:18rem;
+font-style:normal;
+text-decoration:none;
+box-sizing:border-box;
+font-family:"Poppins", sans-serif;
+}
+html{
+font-size:1px;
+}
+.section1{
+height:100vh;
+background:#01539f;
+}
+.container1{
+width:90%;
+height:100%;
+margin:auto;
+display:flex;
+text-align:center;
+flex-direction:column;
+justify-content:center;
+}
+h1{
+font-weight:700;
+color:#ffffff;
+font-size:60rem;
+margin:0 0 1vh 0;
+text-wrap:balance;
+}
+h2{
+color:#ffffff;
+font-size:40rem;
+margin:0 0 3vh 0;
+text-wrap:balance;
+}
+h3{
+color:#ffffff;
+font-size:20rem;
+margin:0 0 5vh 0;
+text-wrap:balance;
+}
+.buttons{
+display:flex;
+align-items:center;
+justify-content:center;
+}
+button{
+width:100%;
+border:none;
+outline:none;
+padding:2vh 0;
+min-width:20vw;
+cursor:pointer;
+font-size:20rem;
+font-weight:700;
+color:#c01f25;
+border-radius:5px;
+background:#ffca06;
+}
+.whatsapp{
+margin:0 3vw 0 0;
+}
+.call{
+margin:0 0 0 3vw;
+}
+.container2{
+gap:25px;
+width:90%;
+display:grid;
+margin:10vh auto;
+align-items:center;
+grid-template-columns:repeat(2, 1fr);
+}
+.left img{
+width:100%;
+border-radius:5px;
+}
+h4{
+font-size:30rem;
+font-weight:700;
+margin:0 0 3vh 0;
+text-wrap:balance;
+}
+.container2 p{
+text-wrap:pretty;
+}
+.top1{
+margin:5vh 0 0 0;
+}
+.blue{
+color:#ffffff;
+background:#01539f;
+}
+.photos{
+gap:25px;
+width:90%;
+display:grid;
+margin:0 auto 10vh auto;
+grid-template-columns:repeat(4, 1fr);
+}
+.photos img{
+width:100%;
+border-radius:5px;
+}
+.banner{
+text-align:center;
+padding:4vh 0 5vh 0;
+background:#ffca06;
+}
+h5{
+font-size:30rem;
+font-weight:700;
+margin:0 0 3vh 0;
+text-wrap:balance;
+}
+footer{
+text-align:center;
+}
+.social i{
+font-size:30rem;
+margin:6vh 1vw 4vh 1vw;
+}
+.top2{
+margin:0 0 1vh 0;
+}
+p.credits{
+margin:3vh 0;
+font-size:14rem;
+}
+@media only screen and (max-width:1000px){
+.container2{
+grid-template-columns:none;
+}
+.left{
+width:60%;
+margin:auto;
+}
+.photos{
+grid-template-columns:none;
+}
+.photos img{
+width:60%;
+margin:auto;
+}
+}
+@media only screen and (max-width:700px){
+*{
+line-height:1.2;
+}
+h1{
+margin:0 0 4vh 0;
+}
+h2{
+font-size:25rem;
+margin:0 0 4vh 0;
+}
+.buttons{
+flex-direction:column;
+}
+button{
+min-width:50vw;
+}
+.whatsapp{
+margin:0 0 3vh 0;
+}
+.call{
+margin:0;
+}
+.left{
+width:90%;
+margin:auto;
+}
+h4{
+margin:0 0 5vh 0;
+text-align:center;
+}
+p{
+line-height:1.5;
+}
+.photos img{
+width:90%;
+margin:auto;
+}
+}
