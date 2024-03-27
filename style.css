@@ -14,16 +14,11 @@ font-family:"Poppins", sans-serif;
 html{
 font-size:1px;
 }
-.section1{
-height:100vh;
-background:#01539f;
-}
 .container1{
-width:90%;
-height:100%;
-margin:auto;
 display:flex;
+height:100vh;
 text-align:center;
+background:#01539f;
 flex-direction:column;
 justify-content:center;
 }
@@ -138,16 +133,13 @@ font-size:14rem;
 .container2{
 grid-template-columns:none;
 }
-.left{
+.left,
+.photos img{
 width:60%;
 margin:auto;
 }
 .photos{
 grid-template-columns:none;
-}
-.photos img{
-width:60%;
-margin:auto;
 }
 }
 @media only screen and (max-width:700px){
