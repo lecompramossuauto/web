@@ -16,8 +16,8 @@ font-size:1px;
 }
 .container1{
 display:flex;
+height:100vh;
 padding:0 5vw;
-height:100vh 0;
 text-align:center;
 background:#01539f;
 flex-direction:column;
