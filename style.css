@@ -27,19 +27,19 @@ h1{
 font-weight:700;
 color:#ffffff;
 font-size:60rem;
-margin:0 0 1vh 0;
+margin:0 0 5px 0;
 text-wrap:balance;
 }
 h2{
 color:#ffffff;
 font-size:40rem;
-margin:0 0 3vh 0;
+margin:0 0 10px 0;
 text-wrap:balance;
 }
 h3{
 color:#ffffff;
 font-size:20rem;
-margin:0 0 5vh 0;
+margin:0 0 25px 0;
 text-wrap:balance;
 }
 .buttons{
@@ -51,7 +51,7 @@ button{
 width:100%;
 border:none;
 outline:none;
-padding:2vh 0;
+padding:15px 0;
 min-width:20vw;
 cursor:pointer;
 font-size:20rem;
@@ -147,12 +147,13 @@ grid-template-columns:none;
 *{
 line-height:1.2;
 }
-h1{
-margin:0 0 4vh 0;
+h1,
+h2{
+margin:0 0 15px 0;
 }
 h2{
 font-size:25rem;
-margin:0 0 4vh 0;
+margin:0 0 15px 0;
 }
 .buttons{
 flex-direction:column;
@@ -161,7 +162,7 @@ button{
 min-width:75vw;
 }
 .whatsapp{
-margin:0 0 2.5vh 0;
+margin:0 0 15px 0;
 }
 .call{
 margin:0;
