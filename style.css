@@ -2,10 +2,8 @@
 *{
 margin:0;
 padding:0;
-line-height:1.5;
 font-weight:400;
 color:#000000;
-font-size:18rem;
 font-style:normal;
 text-decoration:none;
 box-sizing:border-box;
@@ -16,61 +14,61 @@ font-size:1px;
 }
 .container1{
 display:flex;
-padding:100px 5vw;
 text-align:center;
+padding:125px 150px;
 background:#01539f;
 flex-direction:column;
 justify-content:center;
 }
 h1{
+line-height:1;
 font-weight:700;
-color:#ffffff;
 font-size:60rem;
-margin:0 0 5px 0;
+color:#ffffff;
 text-wrap:balance;
+margin:0 0 30px 0;
 }
 h2{
+line-height:1;
+font-weight:700;
+font-size:30rem;
 color:#ffffff;
-font-size:40rem;
-margin:0 0 10px 0;
 text-wrap:balance;
+margin:0 0 30px 0;
 }
 h3{
+line-height:1;
+font-size:22rem;
 color:#ffffff;
-font-size:20rem;
-margin:0 0 25px 0;
-text-wrap:balance;
+text-wrap:pretty;
+margin:0 0 30px 0;
 }
 .buttons{
 display:flex;
-align-items:center;
 justify-content:center;
+}
+.whatsapp,
+.call{
+margin:0 10px;
 }
 button{
 width:100%;
 border:none;
 outline:none;
-padding:15px 0;
-min-width:20vw;
+line-height:1;
 cursor:pointer;
-font-size:20rem;
+padding:14px 0;
+min-width:175px;
+font-size:22rem;
 font-weight:700;
 color:#c01f25;
 border-radius:5px;
 background:#ffca06;
 }
-.whatsapp{
-margin:0 3vw 0 0;
-}
-.call{
-margin:0 0 0 3vw;
-}
 .container2{
-gap:25px;
-width:90%;
+gap:20px;
 display:grid;
-align-items:center;
-margin:10vh auto 8vh auto;
+padding:100px 20px;
 grid-template-columns:repeat(2, 1fr);
 }
 .left img{
@@ -78,26 +76,38 @@ width:100%;
 border-radius:5px;
 }
 h4{
-font-size:30rem;
+line-height:1;
 font-weight:700;
-margin:0 0 3vh 0;
+font-size:30rem;
 text-wrap:balance;
+margin:0 0 20px 0;
 }
-.container2 p{
-text-wrap:balance;
-}
-.top1{
-margin:5vh 0 0 0;
+.right p{
+width:100%;
+line-height:1.5;
+font-size:18rem;
+text-wrap:pretty;
+margin:0 0 20px 0;
 }
 .blue{
 color:#ffffff;
 background:#01539f;
 }
+.right i{
+color:#ffffff;
+margin:0 0 0 5px;
+}
+.fa-whatsapp,
+.fa-phone-volume{
+vertical-align:middle;
+}
+.fa-phone-volume{
+font-size:19px;
+}
 .photos{
-gap:25px;
-width:90%;
+gap:20px;
 display:grid;
-margin:0 auto 10vh auto;
+padding:0 20px 100px 20px;
 grid-template-columns:repeat(4, 1fr);
 }
 .photos img{
@@ -106,30 +116,44 @@ border-radius:5px;
 }
 .banner{
 text-align:center;
-padding:4vh 0 5vh 0;
+padding:50px 20px;
 background:#ffca06;
 }
 h5{
-font-size:30rem;
+line-height:1;
 font-weight:700;
-margin:0 0 3vh 0;
+font-size:25rem;
+margin:0 0 30px 0;
 text-wrap:balance;
 }
 footer{
-text-align:center;
+display:flex;
+padding:0 20px;
+align-items:center;
+flex-direction:column;
 }
 .social i{
+margin:25px;
 font-size:30rem;
-margin:6vh 3vw 4vh 3vw;
 }
-.top2{
-margin:0 0 3vh 0;
+.phone p{
+line-height:1;
+font-size:18rem;
 }
-p.credits{
-margin:3vh 0;
+.bottom{
+margin:0 0 20px 0;
+}
+.credits{
+margin:20px;
+}
+.credits p{
+line-height:1;
 font-size:14rem;
 }
 @media only screen and (max-width:1000px){
+.container1{
+padding:150px 100px;
+}
 .container2{
 grid-template-columns:none;
 }
@@ -143,42 +167,43 @@ grid-template-columns:none;
 }
 }
 @media only screen and (max-width:700px){
-*{
-line-height:1.2;
+.container1{
+padding:100px 20px;
 }
 h1,
-h2{
-margin:0 0 15px 0;
+h2,
+h3,
+h4,
+h5,
+h6{
+line-height:1.2;
 }
 h2{
 font-size:25rem;
-margin:0 0 15px 0;
 }
 .buttons{
+width:75%;
+margin:auto;
 flex-direction:column;
 }
-button{
-min-width:75vw;
-}
 .whatsapp{
-margin:0 0 15px 0;
+margin:0 0 20px 0;
 }
 .call{
 margin:0;
 }
-.left{
-width:90%;
+.container2 {
+padding:100px 20px 50px 20px;
+}
+.left,
+.photos img{
+width:70%;
 margin:auto;
+}
+.right p{
+margin:0 0 50px 0;
 }
 h4{
-margin:0 0 3vh 0;
 text-align:center;
-}
-p{
-line-height:1.5;
-}
-.photos img{
-width:90%;
-margin:auto;
 }
 }
