@@ -129,6 +129,7 @@ text-wrap:balance;
 footer{
 display:flex;
 padding:0 20px;
+position:relative;
 align-items:center;
 flex-direction:column;
 }
@@ -149,6 +150,22 @@ margin:20px;
 .credits p{
 line-height:1;
 font-size:14rem;
+}
+.whatsappicon{
+right:15px;
+width:50px;
+height:50px;
+bottom:15px;
+display:flex;
+position:fixed;
+align-items:center;
+border-radius:50px;
+background:#25d366;
+justify-content:center;
+}
+.whatsappicon i{
+font-size:30rem;
+color:#ffffff;
 }
 @media only screen and (max-width:1000px){
 .container1{
@@ -192,7 +209,7 @@ margin:0 0 20px 0;
 .call{
 margin:0;
 }
-.container2 {
+.container2{
 padding:100px 20px 50px 20px;
 }
 .left,
