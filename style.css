@@ -230,6 +230,9 @@ margin:0;
 width:90%;
 margin:auto;
 }
+.right p {
+margin: 0 0 40px 0;
+}
 .photos{
 padding:0 20px 70px 20px;
 }
