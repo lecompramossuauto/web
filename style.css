@@ -89,6 +89,9 @@ font-size:18rem;
 text-wrap:pretty;
 margin:0 0 55px 0;
 }
+strong{
+font-weight:700;
+}
 .blue{
 color:#ffffff;
 background:#01539f;
