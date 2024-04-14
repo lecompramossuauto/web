@@ -181,7 +181,8 @@ grid-template-columns:none;
 padding:100px 20px 50px 20px;
 }
 .left,
-.photos img{
+.photos img,
+.photos video{
 width:70%;
 margin:auto;
 }
@@ -227,7 +228,8 @@ margin:0 0 20px 0;
 margin:0;
 }
 .left,
-.photos img{
+.photos img,
+.photos video{
 width:90%;
 margin:auto;
 }
