@@ -116,12 +116,7 @@ grid-template-columns:repeat(4, 1fr);
 .photos img,
 .photos video{
 width:100%;
-border-radius:5px;
-}
-.photos .video{
-width:100%;
-overflow:hidden;
-border-radius:5px;
+border-radius:5px !important;
 }
 .banner{
 text-align:center;
@@ -187,8 +182,7 @@ padding:100px 20px 50px 20px;
 }
 .left,
 .photos img,
-.photos video,
-.photos .video{
+.photos video{
 width:70%;
 margin:auto;
 }
@@ -235,8 +229,7 @@ margin:0;
 }
 .left,
 .photos img,
-.photos video,
-.photos .video{
+.photos video{
 width:90%;
 margin:auto;
 }
