@@ -187,7 +187,8 @@ padding:100px 20px 50px 20px;
 }
 .left,
 .photos img,
-.photos video{
+.photos video,
+.photos .video{
 width:70%;
 margin:auto;
 }
@@ -234,7 +235,8 @@ margin:0;
 }
 .left,
 .photos img,
-.photos video{
+.photos video,
+.photos .video{
 width:90%;
 margin:auto;
 }
