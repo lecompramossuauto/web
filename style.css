@@ -113,11 +113,13 @@ display:grid;
 padding:0 20px 125px 20px;
 grid-template-columns:repeat(4, 1fr);
 }
-.photos img{
+.photos img,
+.photos video{
 width:100%;
 border-radius:5px;
 }
 .photos .video{
+width:100%;
 overflow:hidden;
 border-radius:5px;
 }
